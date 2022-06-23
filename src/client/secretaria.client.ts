@@ -1,4 +1,4 @@
-import { BaseClient } from "@/client/base-client";
+import { BaseClient } from "@/client/base.client";
 import { Secretaria } from "@/models/secretaria";
 import { PageRequest } from "@/models/page/page-request";
 import { PageResponse } from "@/models/page/page-response";

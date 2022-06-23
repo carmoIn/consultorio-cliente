@@ -1,5 +1,5 @@
 import { Convenio } from "@/models/convenio";
-import { BaseClient } from "@/client/base-client";
+import { BaseClient } from "@/client/base.client";
 import { PageRequest } from "@/models/page/page-request";
 import { PageResponse } from "@/models/page/page-response";
 
