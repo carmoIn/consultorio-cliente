@@ -1,4 +1,4 @@
-import { AbstractEntity } from "src/models/abstract-entity";
+import { AbstractEntity } from 'src/models/abstract-entity';
 
 /**
  * @author Eduardo Sganderla
@@ -7,5 +7,5 @@ import { AbstractEntity } from "src/models/abstract-entity";
  * @version 1.0.0
  */
 export class Especialidade extends AbstractEntity {
-  nome!: string;
+    nome!: string;
 }
