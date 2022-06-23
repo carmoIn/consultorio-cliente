@@ -1,5 +1,5 @@
 import { Especialidade } from "@/models/especialidade";
-import { BaseClient } from "@/client/base-client";
+import { BaseClient } from "@/client/base.client";
 
 /**
  * @author Helcio Laurentino do Carmo Junior
