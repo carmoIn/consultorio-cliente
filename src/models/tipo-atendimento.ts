@@ -1,4 +1,4 @@
 export enum TipoAtendimento {
-  particular = "Particular",
-  convenio = "Convênio",
+    particular = 'Particular',
+    convenio = 'Convênio',
 }
