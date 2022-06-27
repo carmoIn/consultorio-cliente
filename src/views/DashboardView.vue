@@ -1,9 +1,5 @@
 <template>
-    <card-component title="Home">
-        <template v-slot:body>
-            <h1>Conteúdo</h1>
-        </template>
-    </card-component>
+    <div></div>
 </template>
 
 <script lang="ts">
@@ -12,6 +8,5 @@ import CardComponent from '@/components/CardComponent.vue';
 
 export default defineComponent({
     name: 'HomeView',
-    components: { CardComponent },
 });
 </script>
