@@ -1,24 +1,9 @@
 <template>
-    <section class="main-content columns is-fullheight">
-        <aside
-            class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile"
-        >
-            <nav-menu></nav-menu>
-        </aside>
-
-        <div class="container column is-10">
-            <div class="section">
-                <router-view />
-            </div>
-        </div>
-    </section>
+    <router-view />
 </template>
 
 <script>
-import NavMenu from '@/components/NavMenu';
-export default {
-    components: { NavMenu },
-};
+export default {};
 </script>
 
 <style lang="scss">
